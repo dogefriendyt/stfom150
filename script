@@ -38,7 +38,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
                 Text = "Success.";
                 Duration = 0.1;})
 
-	game:GetService("Players").LocalPlayer.Character.Humanoid.HipHeight = 16
+	game:GetService("Players").LocalPlayer.Character.Humanoid.HipHeight = 20
 
 end)
 
