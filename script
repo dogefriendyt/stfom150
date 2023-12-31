@@ -11,8 +11,38 @@ local Window = Library.CreateLib("Doge Hub", "DarkTheme")
 local Tab1 = Window:NewTab("Autofarm")
 local Tab1Section = Tab1:NewSection("Scripts")
 
+Tab1Section:NewButton("TP to 500x World", "Load.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Success.";
+                Duration = 0.1;})
 
-Tab1Section:NewButton("500x World", "Load.", function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-903.3535766601562, 21.93022918701172, 103.36029815673828)
+
+end)
+
+Tab1Section:NewButton("TP to 750x World", "Load.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Success.";
+                Duration = 0.1;})
+
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(99.7813720703125, 21.824481964111328, -897.3173828125)
+
+end)
+
+Tab1Section:NewButton("TP to 1000x World", "Load.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Success.";
+                Duration = 0.1;})
+
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-901.4258422851562, 24.060222625732422, -903.6689453125)
+
+end)
+
+
+Tab1Section:NewButton("Loop TP 500x World", "Load.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
                 Text = "Success.";
@@ -25,7 +55,7 @@ end
 
 end)
 
-Tab1Section:NewButton("750x World", "Load.", function()
+Tab1Section:NewButton("Loop TP 750x World", "Load.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
                 Text = "Success.";
@@ -38,7 +68,7 @@ end
 
 end)
 
-Tab1Section:NewButton("1000x World", "Load.", function()
+Tab1Section:NewButton("Loop TP 1000x World", "Load.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
                 Text = "Success.";
