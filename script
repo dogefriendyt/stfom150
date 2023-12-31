@@ -28,7 +28,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
                 Text = "Success.";
                 Duration = 0.1;})
 
-	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 200
+	game.Players.LocalPlayer.Character.Humanoid.JumpPower = 200
 
 end)
 
