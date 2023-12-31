@@ -11,6 +11,16 @@ local Window = Library.CreateLib("Doge Hub", "DarkTheme")
 local Tab1 = Window:NewTab("Autofarm")
 local Tab1Section = Tab1:NewSection("Scripts")
 
+Tab1Section:NewButton("Walkspeed Boost", "Load.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Success.";
+                Duration = 0.1;})
+
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 40
+
+end)
+
 Tab1Section:NewButton("TP to 500x World", "Load.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
