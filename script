@@ -10,7 +10,7 @@ local Window = Library.CreateLib("Doge Hub", "DarkTheme")
 
 local Tab1 = Window:NewTab("Autofarm")
 local Tab1Section = Tab1:NewSection("Scripts")
-Tab1Section:NewParagraph("Activate god mode before anything!")
+
 
 Tab1Section:NewButton("Walkspeed Boost", "Load.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
